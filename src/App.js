@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project is created by{" "}
           <a href="https://silver-lokum-739c2e.netlify.app/">Alexis Allison</a>{" "}
